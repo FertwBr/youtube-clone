@@ -11,9 +11,8 @@ p{
 }
 
 .thumbnail {
-  display: block;
-  width: 300px;
   border-radius: 10px;
+  width: 100%;
 }
 
 .search-box {
@@ -28,13 +27,6 @@ p{
   border-width: 1px;
   border-color: #282828;
   border-radius: 25px;
-}
-
-.video-preview {
-  display: inline-block;
-  width: 300px;
-  vertical-align: top;
-  margin-right: 15px;
 }
 
 .video-tittle {
@@ -54,15 +46,16 @@ p{
   margin-bottom: 2px;
 }
 
-.video-info {
-  display: inline-block;
-  width: 245px;
+.video-info-grid{
+display: grid;
+grid-template-columns: 50px 1fr;
 }
 
-.channel-picture {
-  vertical-align: top;
-  display: inline-block;
-  width: 50px;
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
 }
 
 .profile-picture {
