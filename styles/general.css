@@ -1,0 +1,12 @@
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: black;
+  border: none;
+  color: white;
+  margin: 0px;
+}
+
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
