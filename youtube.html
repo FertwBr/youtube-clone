@@ -25,6 +25,7 @@
       <img class="youtube-logo" src="images/header/icons/youtube-logo.svg">
     </div>
     <div class="middle-section">
+      <!-- TODO #4 Fix search bar border colapse with search button -->
       <input class="search-bar" type="text" placeholder="Search">
       <button class="search-button">
         <img class="search-button-icon" src="images/header/icons/search.svg">
@@ -32,14 +33,24 @@
       </button>
       <button class="voice-search-button">
         <img class="voice-search-button-icon" src="images/header/icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
       </button>
     </div>
     <div class="right-section">
+      <button class="upload-button">
         <img class="upload-icon" src="images/header/icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </button>
+      <button class="youtube-apps-button">
         <img class="youtube-apps-icon" src="images/header/icons/youtube-apps.svg">
+        <div class="tooltip">Youtube Apps</div>
+      </button>
         <div class="notifications-icon-container">
-          <img class="notifications-icon" src="images/header/icons/notifications.svg">
-          <div class="notifications-count">9+</div>
+          <button class="notifications-button">
+            <img class="notifications-icon" src="images/header/icons/notifications.svg">
+            <div class="notifications-count">9+</div>
+            <div class="tooltip">Notifications</div>
+          </button>
         </div>
         <img class="current-user-picture" src="images/channel-pictures/my-channel.jpeg">
     </div>
@@ -87,6 +98,7 @@
   <div class="video-grid">
     <div class="video-preview">
       <div class="thumbnail-row">
+        <!-- TODO #5 Make the thumbnail and channel pictures into a link -->
         <img class="thumbnail" src="images/thumbnails/thumbnail-1.webp">
         <div class="video-time">14:20</div>
       </div>
@@ -95,7 +107,9 @@
           <img class="profile-picture" src="images/channel-pictures/channel-1.jpeg">
         </div>
         <div class="video-info">
+           <!-- TODO #6 Make the video title a link to the actual video -->
           <p class="video-tittle">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+           <!-- TODO Make tooltips for the channel pictueres -->
           <p class="video-author">Marques Brownlee</p>
           <p class="video-status">3.4M views &#183; 6 months ago</p>
         </div>
