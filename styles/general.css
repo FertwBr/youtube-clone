@@ -1,9 +1,12 @@
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  background-color: black;
+  background-color: #0f0f0f;
   border: none;
   color: white;
   margin: 0px;
+  padding-top: 80px;
+  padding-left: 90px;
+  padding-right: 24px;
 }
 
 p{
