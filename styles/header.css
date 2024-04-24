@@ -24,11 +24,11 @@
   height: 24px;
   margin-left: 24px;
   margin-right: 20px;
-  }
+ }
   
-  .youtube-logo{
+.youtube-logo{
     height: 20px;
-  }
+}
 
 .middle-section{
   flex: 1;
@@ -37,7 +37,7 @@
 
   margin-left: 60px;
   margin-right: 35px;
-  max-width: 500px;
+  max-width: 470px;
 }
 
 
@@ -76,11 +76,13 @@
   height: 40px;
   width: 66px;
 
+
   border-style: solid;
-  border-width: 1px;
+  border-width:  1px 1px 1px 0px;
   border-color: #292929;
   border-radius: 0px 25px 25px 0px;
-  margin-left: -1px;
+
+  margin-left: 1px;
   margin-right: 10px;
 
   cursor: pointer;
