@@ -2,6 +2,10 @@
 
 This repository contains the code for a simple (for now) YouTube clone website built for learning purposes. 
 
+### Project Preview
+
+![Preview Image](images/preview.png)
+
 ### Project Structure
 
 The project uses HTML, CSS, and in the future potentially JavaScript to achieve the basic layout and functionality of a YouTube homepage. Here's a breakdown of the expected files and folders:
