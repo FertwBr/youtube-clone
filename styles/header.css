@@ -22,8 +22,7 @@
 
 .hamburguer-menu{
   height: 24px;
-  margin-left: 24px;
-  margin-right: 20px;
+  margin: 0px 20px 0px 24px;
  }
   
 .youtube-logo{
@@ -34,9 +33,7 @@
   flex: 1;
   display: flex;
   align-items: center;
-
-  margin-left: 60px;
-  margin-right: 35px;
+  margin: 0px 35px 0px 60px;
   max-width: 470px;
 }
 
@@ -82,12 +79,8 @@
   border-width:  1px 1px 1px 0px;
   border-color: #292929;
   border-radius: 0px 25px 25px 0px;
-
-  margin-left: -1px;
-  margin-right: 10px;
-
+  margin: 0px 10px 0px -1px;
   z-index: 80;
-
   cursor: pointer;
   transition: opcaity 0.15s;
 }
@@ -107,7 +100,6 @@
   opacity: 0;
   pointer-events: none;
   white-space: nowrap;
-
   transition: opacity 0.15s;
 }
 
@@ -174,12 +166,10 @@
   width: 40px;
   border: none;
   border-radius: none;
-
   cursor: pointer;
   transition: opcaity 0.15s,
   background-color 0.15s,
   border-radius 0.15s;
-
 }
 
 .upload-button:hover,
@@ -223,5 +213,4 @@
 .current-user-picture{
   height: 32px;
   border-radius: 16px;
-  
 }
